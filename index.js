@@ -24,6 +24,7 @@ userInputEl.addEventListener("keyup", function(event){
 
 function renderUserInput()
 {
+    userInput = userInputEl.value;
     metersToFeetResult.innerHTML = 
     `
     ${userInput} meters = ${ calcMetersToFeet(userInput)} feet
@@ -49,6 +50,7 @@ function renderUserInput()
     ${userInput} pounds = ${ calcPoundsToKilograms(userInput) }
     `
 }
+
 
 function calcMetersToFeet(input) 
 {
