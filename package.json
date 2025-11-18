@@ -1,0 +1,23 @@
+{
+  "name": "unit-converter",
+  "version": "1.0.0",
+  "description": "A static unit converter with limited functionality written in JS",
+  "homepage": "https://github.com/matt-the-thew/unit-converter#readme",
+  "bugs": {
+    "url": "https://github.com/matt-the-thew/unit-converter/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matt-the-thew/unit-converter.git"
+  },
+  "license": "ISC",
+  "author": "Matthew Morton",
+  "type": "commonjs",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "vite": "^7.2.2"
+  }
+}
